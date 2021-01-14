@@ -1,0 +1,8 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/enable_touchpad.sh
+
+[Install]
+WantedBy=default.target

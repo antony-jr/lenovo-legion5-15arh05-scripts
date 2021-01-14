@@ -28,8 +28,8 @@ Simple scripts and guides to work around with issues on running gnu+linux in Len
 
 # Guides
 
- Trackpad Fix - See Trackpad Directory of this Repo.
+ *Touchpad Fix* - See **Touchpad/** Directory of this Repo.
 
- Nvidia Graphics X Server Configuration to fix brightness control and High DPI - See XOrgConfigurationNvidia direcotor.
+ *Nvidia Graphics X Server Configuration to fix brightness control and High DPI* - See **XOrgConfigurationNvidia/** direcotor.
 
- Battery Conservation Mode Control - See BatteryConservation Directory.
+ *Battery Conservation Mode Control* - See **BatteryConservation/** Directory.

@@ -2,7 +2,6 @@
 
 This is the most wanted solution. Yes the touchpad works good but has some minor issues. To get the touchpad work try executing the following command as root.
 
-/etc/systemd/system/touchpad-fix.service
 
 ```
  $ su # Make yourself root user.

@@ -4,7 +4,7 @@ Because of a bug in the AMD iGPU driver in the mainline kernel(at the time of wr
 
 Only thing you lose with this is battery consumption because with the discrete GPU, you can only expect about 3 hours of battery life(not tested just a guess) (even with 5% brightness).
 
-But for now I can't find any solution for this, But **I can confirm that the brightness control does work somewhat okayish in Fedorat Workstation 32 with Linux Kernel 5.6.6**.
+But for now I can't find any solution for this, But **I can confirm that the brightness control does work somewhat okayish in Fedora Workstation 32 with Linux Kernel 5.6.6**.
 
 If you want to catch up to the upstream bug, here is the link -> https://gitlab.freedesktop.org/drm/amd/-/issues/1438
 

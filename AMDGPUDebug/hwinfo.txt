@@ -1,0 +1,21 @@
+antonyjr@Kaguya:~> inxi -G
+Graphics:  Device-1: NVIDIA TU117M [GeForce GTX 1650 Ti Mobile] driver: nvidia v: 460.32.03 
+           Device-2: AMD Renoir driver: amdgpu v: kernel 
+           Device-3: Syntek Integrated Camera type: USB driver: uvcvideo 
+           Display: x11 server: X.org 1.20.10 driver: amdgpu,ati,nvidia 
+           unloaded: fbdev,modesetting,nouveau,vesa resolution: <xdpyinfo missing> 
+           OpenGL: renderer: AMD RENOIR (DRM 3.40.0 5.10.9-1-default LLVM 11.0.1) 
+           v: 4.6 Mesa 20.3.3
+
+antonyjr@Kaguya:~> xrandr --listproviders 
+Providers: number : 2
+Provider 0: id: 0x54; cap: 0xf (Source Output, Sink Output, Source Offload, Sink Offload); crtcs: 4; outputs: 1; associated providers: 1; name: Unknown AMD Radeon GPU @ pci:0000:05:00.0
+    output eDP
+Provider 1: id: 0x1f6; cap: 0x2 (Sink Output); crtcs: 4; outputs: 4; associated providers: 1; name: NVIDIA-G0
+    output DP-1-0
+    output DP-1-1
+    output HDMI-1-0
+    output DP-1-2
+
+Kaguya:/home/antonyjr # uname -r
+5.10.9-1-default

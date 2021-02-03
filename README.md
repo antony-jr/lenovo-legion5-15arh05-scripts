@@ -2,6 +2,7 @@
 
 Simple scripts and guides to work around with issues on running gnu+linux in Lenovo Legion 5 15ARH05 version.
 
+**IMPORTANT**: Currently a working workaround for brighness control on the integrated graphics has been made by the OpenSUSE folks [here](https://bugzilla.opensuse.org/show_bug.cgi?id=1180749), So now you can use switchable graphics with Linux too with this workaround but this needs to be upstreamed to the mainline kernel which then take months to get into the stable kernel or distros can add this patch sooner. But for now OpenSUSE Tumbleweed is the only distro which can solve this issue. (More detailed guide will follow soon-ish)
 
 ## What's Working
 

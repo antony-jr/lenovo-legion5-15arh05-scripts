@@ -28,3 +28,8 @@ EndSection
 The location of the configuration to the X Server can vary a lot so please refer your distro manaul **/usr/share/X11/xorg.conf.d/** is the directory for **OpenSUSE Tumbleweed** so you have to find your X Server configuration directory.
 
 
+Also add the following args as kernel parameters, (As of **Linux v5.15.x**)
+
+```
+nvidia.NVreg_RegistryDwords=EnableBrightnessControl=1 acpi_backlight=native 
+```
